@@ -1,0 +1,9 @@
+#ddev-generated
+services:
+  dba:
+    environment:
+      - HTTP_EXPOSE=30099:80
+      - HTTPS_EXPOSE=30098:80
+  web:
+    environment:
+      - HTTPS_EXPOSE=443:80,30061:8025
