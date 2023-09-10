@@ -3,7 +3,6 @@ pre_install_actions:
 
 project_files:
   - docker-compose.wp-projects.yaml
-  - docker-compose.phpdoc.yaml
 global_files:
 post_install_actions:
 
